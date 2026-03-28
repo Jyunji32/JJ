@@ -4,7 +4,7 @@ import pandas as pd
 
 st.title("💪 筋トレ自己ベスト・チェッカー")
 
-# 1. スプレッドシートへの接続
+# app.py の接続部分をこう書き換えてみる
 conn = st.connection("gsheets", type=GSheetsConnection)
 
 # 2. データの読み込み
